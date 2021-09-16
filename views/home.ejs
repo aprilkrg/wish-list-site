@@ -1,0 +1,23 @@
+<%- include("./partials/header.ejs") %>
+<body>
+    
+    <h1>April's Wishlist</h1>
+    
+    <div id="facts" class="card">
+        <h3>April Facts:</h3>
+        <ul id="facts__ul">
+            <li>Favorite colors: baby blue and seafoam</li>
+            <li>Drinks 3 cups of coffee per day</li>
+        </ul>
+    </div>
+    
+    
+    <div id="list" class="card">
+        <h3>Things I want</h3>
+        <ul>
+            <%- include("./partials/list.ejs") %>
+        </ul>
+    </div>
+
+</body>
+<%- include("./partials/footer.ejs") %>

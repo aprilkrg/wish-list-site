@@ -1,0 +1,9 @@
+<div id="wish-list" class="card">    
+    <% list.forEach(item => { %>
+       <li id="wish-list-item" class="card"> 
+           <img src="<%= item.img %>">
+           <a href="<%= item.link %>" ><%= item.title %></a>
+
+        </li>
+    <% }) %>
+</div>
